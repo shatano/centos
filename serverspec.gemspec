@@ -6,16 +6,16 @@ require 'serverspec/version'
 Gem::Specification.new do |spec|
   spec.name          = "serverspec"
   spec.version       = Serverspec::VERSION
-  spec.authors       = ["Gosuke Miyashita"]
-  spec.email         = ["gosukenator@gmail.com"]
-  spec.description   = %q{RSpec tests for your servers configured by Puppet, Chef or anything else}
-  spec.summary       = %q{RSpec tests for your servers configured by Puppet, Chef or anything else}
-  spec.homepage      = "http://serverspec.org/"
-  spec.license       = "MIT"
+#  spec.authors       = ["Gosuke Miyashita"]
+#  spec.email         = ["gosukenator@gmail.com"]
+#  spec.description   = %q{RSpec tests for your servers configured by Puppet, Chef or anything else}
+#  spec.summary       = %q{RSpec tests for your servers configured by Puppet, Chef or anything else}
+#  spec.homepage      = "http://serverspec.org/"
+#  spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+#  spec.files         = `git ls-files`.split($/)
+#  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+#  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "net-ssh"
